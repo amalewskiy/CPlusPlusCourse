@@ -14,7 +14,7 @@ Adres obiektu pobiera się przez poprzedzaniem nazwy obiektu symbolem `&`.
 ```cpp
 int a{};
 int* a_ptr = &a;
-print("&a: %p\n", a_ptr); // print address of a
+printf("&a: %p\n", a_ptr); // print address of a
 ```
 
 ##### Dereferencja wskaźnika
